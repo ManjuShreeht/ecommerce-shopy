@@ -1,0 +1,96 @@
+.heading{
+    text-align: center;
+}
+.cart{
+    flex-basis: 70%;
+}
+.cart-row{
+    margin-top: 30px;
+    margin-left: 120px;
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap:0.4rem;
+}
+.cart-box{
+    width:700px;
+    height:300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap:1rem;
+  
+}
+.cart-box img{
+    width:300px;
+    height:200px;
+}
+.cart-btn{
+    margin-top: 5px;
+    display: flex;
+    align-items: baseline;
+    gap:0.4rem;
+}
+.cart-col{
+    width:300px;
+    margin-left: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap:0.8rem;
+    margin-top:40px;
+    word-break: break-word;
+   
+}
+.cart-btn button{
+    padding: 5px 10px;
+}
+.cart-col h1{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+}
+.btn{
+    padding:5px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: rgb(243, 12, 12);
+    border-color: grey;
+    cursor:pointer;
+    box-shadow:1px 2px 2px #000;
+}
+.subtotal{
+    display: flex;
+    
+}
+.sub{
+    flex-basis: 20%;
+    margin-top: 80px;
+    background-color: gray;
+    height:30vh;
+    margin-left: 40px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.sub p,h2{
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.sub-btn{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border-color: gray;
+    margin-top: 20px;
+    margin-left: 80px;
+    color: white;
+    cursor: pointer;
+
+}
