@@ -13,7 +13,7 @@ function Favourite() {
  
   return (
     <div className='cart'>
-        <h1 className='heading'> Your Cart</h1>
+        <h1 className='heading'> Favourite List</h1>
         <div className="cart-row">
 
       {
